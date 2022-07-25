@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#000000" />
+  <title>Vue 2 Js type Module UnoCss Mobilekit</title>
+  <script src="js/axios.min.js"></script>
+  <script src="js/liff2sdk.js"></script>
+  <script src="js/vconsole.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <script src="js/tigy.js"></script>
+  <script>
+    window.__unocss = {
+      rules: [],
+      presets: [preseTagify({})],
+    };
+  </script>
+  <script>
+    var vConsole = new VConsole();
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="loader">
+      <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <App />
+  </div>
+  <script type="module" src="./vue/main.js"></script>
+</body>
+
+</html>
